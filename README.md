@@ -1,18 +1,18 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-<a href = "https://www.paypal.com/donate/?hosted_button_id=5JK8CUWFUU9B6">![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)</a>
+<a href = "https://cothach.vn">![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)</a>
 
-# Quote Video Maker for Shorts/Reels/TikTok
-<h3>This script creates high-quality vertical quotes videos (1920x1080) in about 15secs per video!</h3>
+# Ứng dụng tạo video dựa trên trích dẫn cho Shorts/Reels/TikTok
+<h3>Kịch bản này tạo video trích dẫn chất lượng cao dọc (1920x1080) trong khoảng 15 giây mỗi video!</h3>
 
 ## 📝 Table of Contents
 
-1. [About](#about)
+1. [Giới thiệu](#about)
 2. [Demo](#demo)
-3. [How it works](#working)
-4. [How To Run](#how_to)
-5. [Built Using](#built_using)
-6. [Final Results](#results)
-7. [Note](#note)
+3. [Cách hoạt động](#working)
+4. [Cách chạy ứng dụng](#how_to)
+5. [Triển khai](#built_using)
+6. [Kết quả đạt được](#results)
+7. [Lưu ý](#note)
 
 <h2 id="demo">🎥 Demo</h2>
 
@@ -21,22 +21,24 @@ https://github.com/SamuraiPolix/ShortsMaker/assets/52662032/fb67c274-8701-482a-a
 
 <h2 id="about">🧐 About</h2>
 
-This is my first big Python project, which I put a lot of effort into, hope you get the most out of it :)
+Đây là dự án Python lớn đầu tiên của tôi, mà tôi đã bỏ rất nhiều công sức vào đó, hy vọng bạn sẽ tận dụng tối đa nó :)
 
-I used it to sell bible verse videos on Fiverr for a while.
+Tôi đã sử dụng nó để bán các video trích dẫn Kinh Thánh trên Fiverr trong một thời gian.
 
 
 <h2 id="working">💭 How it works</h2>
 
 <h4>#1 Content</h4>
-I got a 50+ stock background video (of mainly nature), 40 audio files and 10 fonts.
+Tôi có 50+ video nền (chủ yếu là thiên nhiên), 40 tệp âm thanh và 10 phông chữ.
 
 <h4>#2 Editing</h4>
-The script works by taking a background video from '/videos', an audio file from '/audios', a random font, and a quote (a bible verse) from the JSON file, and combining them all into 1 video.
 
-I am using **PILLOW** to generate the text in different fonts and **FFMPEG** to combine them all as fast as possible (I used **MoviePy** at the beginning but it was too slow).
+Kịch bản hoạt động bằng cách lấy một video nền từ thư mục '/videos', một tệp âm thanh từ thư mục '/audios', một phông chữ ngẫu nhiên, và một trích dẫn (một đoạn Kinh Thánh) từ tệp JSON, và kết hợp chúng thành một video duy nhất.
 
-All the video files and audio files are copyright-free from stock footage websites (Pexels, Pixabay, etc.), and the fonts are copyright-free as well.
+
+Tôi đang sử dụng **PILLOW** để tạo ra văn bản bằng các phông chữ khác nhau và **FFMPEG** để kết hợp chúng một cách nhanh chóng nhất có thể (ban đầu tôi đã sử dụng **MoviePy** nhưng nó quá chậm).
+
+Tất cả các tệp video và tệp âm thanh đều là miễn phí bản quyền từ các trang web cung cấp video và hình ảnh như Pexels, Pixabay, v.v., và các phông chữ cũng là miễn phí bản quyền.
 
 <h2 id="how_to">🏁 How to run</h2>
 
@@ -78,5 +80,5 @@ After running the script you will get these 3 files:
 
 <h2 id="note">🗒️ Note</h2>
 
-Note that this script is very basic as of now. I added **Text-to-Speak** in a later version which I will hopefully post soon. If you want to contribute, you are free to do so and you may even fork and improve this repository.
+Lưu ý rằng kịch bản này hiện tại rất cơ bản. Tôi đã thêm Text-to-Speech vào phiên bản sau và hy vọng sẽ sớm đăng lên. Nếu bạn muốn đóng góp, bạn hoàn toàn có thể làm và bạn cũng có thể fork và cải thiện kho lưu trữ này..
 "# Merge-Short-Video" 
